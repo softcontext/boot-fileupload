@@ -8,7 +8,8 @@
 <body>
 	<h1>File Upload Example</h1>
 	<form action="upload" method="post" enctype="multipart/form-data">
-		<div><input type="file" name="file"></div>
+		<div>ETC <input type="text" name="etc"></div>
+		<div>FILE <input type="file" name="file"></div>
 		<div><button type="submit">Upload</button></div>
 	</form>
 </body>
